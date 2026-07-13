@@ -1,6 +1,8 @@
+import java.util.Scanner;
 public class switchcase{
     public static void main(String a[]){
-        int day=4;
+        Scanner sc = new Scanner(System.in);
+        int day= sc.nextInt();
         switch(day){
             case 1:
                 System.out.println("Monday");
